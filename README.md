@@ -31,8 +31,6 @@ plugins = ["nonebot_plugin_queqiaoqiao"]
 # ...
 ```
 
-
-
 ## 配置
 
 ```dotenv
@@ -49,10 +47,10 @@ sync_mc_groups = [["Server1", "Server2", "Server3"], ["Server4", "Server5"]]
 - 本插件基于 [`nonebot-adapter-minecraft`](https://github.com/17TheWord/nonebot-adapter-minecraft)
   适配器实现 `Websocket`、`Rcon` 通信
 - 若有自定义一些简单插件的想法，可以一试，例如：
-    - 非插件端无权限系统场景下实现普通玩家使用`tp`命令
-    - 实现简单的自助领取游戏物品
-    - 连接直播间，实现弹幕聊天与游戏内聊天互通
-    - ...
+  - 非插件端无权限系统场景下实现普通玩家使用`tp`命令
+  - 实现简单的自助领取游戏物品
+  - 连接直播间，实现弹幕聊天与游戏内聊天互通
+  - ...
 
 ## 贡献与支持
 
