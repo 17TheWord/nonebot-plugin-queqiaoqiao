@@ -6,7 +6,7 @@ from .config import plugin_config
 
 
 def sync_mc_server_group(event: MessageEvent):
-    return event.server_name in plugin_config._sync_server_set
+    return event.server_name in plugin_config.sync_server_set
 
 
 sync_mc_server = on_message(priority=5, rule=sync_mc_server_group)
@@ -15,7 +15,7 @@ sync_mc_server = on_message(priority=5, rule=sync_mc_server_group)
 @sync_mc_server.handle()
 async def handle_server_message(event: MessageEvent):
     if not (
-        sync_server_list := plugin_config._sync_mc_server_dict.get(event.server_name)
+        sync_server_list := plugin_config.sync_mc_server_dict.get(event.server_name)
     ):
         logger.debug("同步群组为空")
         return
