@@ -35,7 +35,7 @@ plugins = ["nonebot_plugin_queqiaoqiao"]
 
 ```dotenv
 # 服务器名需与鹊桥端配置一致
-sync_mc_groups = [["Server1", "Server2", "Server3"], ["Server4", "Server5"]]
+sync_mc_server_group = [["Server1", "Server2", "Server3"], ["Server4", "Server5"]]
 ```
 
 ## 特别感谢
