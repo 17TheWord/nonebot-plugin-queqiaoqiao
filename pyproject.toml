@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nonebot-plugin-queqiaoqiao"
-version = "0.0.2"
+version = "0.0.3"
 description = "基于鹊桥的同步多个Minecraft服务器消息的插件"
 authors = ["17TheWord <17theword@gmail.com>"]
 license = "MIT"
